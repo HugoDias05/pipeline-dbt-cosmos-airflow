@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: dim_users
+    description: "Dimensão de usuários pronta para consumo"
+    columns:
+      - name: user_id
+        tests: [not_null, unique]

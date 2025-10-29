@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: stg_users
+    description: "Tabela de staging: dados limpos a partir de raw.users"
+    columns:
+      - name: id
+        description: "ID único do usuário"
+        tests: [not_null, unique]
+      - name: email
+        description: "E-mail normalizado do usuário"
+        tests: [not_null]

@@ -1,0 +1,19 @@
+name: 'users_dbt'
+version: '1.0.0'
+config-version: 2
+
+profile: 'users_dbt_profile'   # referência para o profiles.yml
+
+model-paths: ['models']
+test-paths: ['tests']
+seed-paths: ['data']
+target-path: 'target'
+clean-targets: ['target', 'dbt_packages']
+
+models:
+  users_dbt:
+    +materialized: table
+    staging:
+      +schema: staging
+    marts:
+      +schema: marts
