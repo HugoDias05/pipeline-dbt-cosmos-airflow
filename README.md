@@ -61,7 +61,7 @@ The main Airflow DAG, `users_bq_dbt_pipeline`, executes the following steps:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [YOUR REPO LINK]
+    git clone https://github.com/HugoDias05/pipeline-dbt-cosmos-airflow
     cd [YOUR REPO FOLDER]
     ```
 
@@ -107,6 +107,6 @@ The main Airflow DAG, `users_bq_dbt_pipeline`, executes the following steps:
 ## 👤 Author
 
 * **Name:** Hugo Dias
-* **LinkedIn:** [YOUR LINKEDIN PROFILE URL]
+* **LinkedIn:** https://www.linkedin.com/in/hugoduartedias/
 * **GitHub:** https://github.com/HugoDias05
 * **Project Date:** October, 2025
